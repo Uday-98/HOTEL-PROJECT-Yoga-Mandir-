@@ -1,0 +1,31 @@
+.package-head
+{
+    animation: pack 1s;
+    text-align: center;
+    color: #00436a;
+}
+@keyframes pack{
+    from{
+        letter-spacing: 35px;
+        filter: blur(5px);
+        opacity: 0;
+    }to{
+        letter-spacing: 0;
+        filter: blur(0);
+        opacity: 1px;
+    }
+}
+.package li
+{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.package-description p
+{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.package-description h5
+{
+    font-weight: bold;
+}

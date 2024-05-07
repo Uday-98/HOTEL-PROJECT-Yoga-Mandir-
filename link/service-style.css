@@ -1,0 +1,50 @@
+
+.service-img2
+{
+    margin-top: 50px;
+}
+.service-head
+{
+    animation: serv 1s;
+    text-align: center;
+    color: #00436a;
+}
+@keyframes serv{
+    from{
+        letter-spacing: 35px;
+        filter: blur(5px);
+        opacity: 0;
+    }to{
+        letter-spacing: 0;
+        filter: blur(0);
+        opacity: 1px;
+    }
+}
+.service-img2 .card
+{
+    border: 1px solid #00436a;
+    text-align: center;
+}
+.service-img2 .card .card-header
+{
+    font-weight: 500;
+    background-color: #00436a;
+    color: white;
+    font-size: 18px;
+}
+.service-img1 .card img
+{
+    height: 450px;
+}
+.service-img2 .card .card-footer
+{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width:768px)
+{
+    .service-img2 .c1
+    {
+        margin-top: 8px;
+    }
+}

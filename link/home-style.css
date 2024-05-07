@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+.background-index
+{
+    background: url("../IMAGE/background-index.jpg") fixed;
+}
+.index-slide
+{
+    animation: logo 1s;
+}
+@keyframes logo {
+    from{
+        transform: translateY(-150px);
+        filter: blur(5px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+.index-head
+{
+    animation: anim 1s;
+}
+@keyframes anim{
+    from{
+        letter-spacing: 40px;
+        filter: blur(6px);
+        opacity: 0;
+    }to{
+        letter-spacing: 0;
+        filter: blur(0);
+        opacity: 1px;
+    }
+}
+.start
+{
+    background-color: #001b2b;
+}
+.start a
+{
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.start .site a
+{
+    padding-left: 20px;
+}
+.navbar
+{
+    /* background:#00436a; */
+    background-color: #001b2b;
+}
+
+.nav-item
+{
+    margin: 0px 12px;
+}
+.nav-link {
+    color: white;
+    font-size: 11pt;
+    font-weight: bold;
+}
+.nav-link:hover
+{
+    background-color:white;
+    color:red;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.carousel-caption-index
+{
+    margin-bottom: 40px;
+    animation: caption-i 1.5s;
+}
+@keyframes caption-i{
+    from{
+        letter-spacing: 50px;
+        filter: blur(6px);
+        opacity: 0;
+    }to{
+        letter-spacing: 0;
+        filter: blur(0);
+        opacity: 1px;
+    }
+}
+
+.carousel-caption-index h1
+{
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #001b2b;
+}
+
+.i1,.i2
+{
+    border:2px solid black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color:red;
+}
+.yoga .card
+{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 1.3s ease-in-out;
+}
+.yoga img
+{
+    height: 200px;
+    border-radius: 10px;
+    transition: all 1.3s ease-in-out;
+}
+.yoga .card:hover img
+{
+    transform: scale(1.4, 1.4);
+    cursor: pointer;
+}
+
+.heading
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    animation-name: turn;
+    animation-duration: 1.5s;
+}
+@keyframes turn 
+{
+  from{
+    letter-spacing: 35px;
+    filter: blur(5px);
+    opacity: 0;
+  }
+  to{
+    letter-spacing: 0px;
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.about_us .card.description
+{
+    border: none;
+    background-color: whitesmoke;
+}
+.about_us .card-body p {
+    font-size: 19px;
+    text-align: justify;
+}
+.paragraph
+{
+    animation-name: para;
+    animation-duration: 1.5s;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@keyframes para 
+{
+    0% {
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }  
+}
+
+.card1 {
+    text-align: center;
+    background-color: teal;
+    height: 280px;
+    border-radius: 0px;
+    animation-name: mycard1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes mycard1
+{
+    0% {
+        transform: scale(.8);
+        background-color:darkslateblue;
+        border-radius: 40%;
+      }
+      100% {
+        transform: scale(1);
+        background-color:teal;
+
+      }
+}
+
+.card1 .card-body,
+.card2 .card-body,
+.card3 .card-body {
+    margin-top: 30px;
+    color: white;
+}
+
+.card2 {
+    text-align: center;
+    background: mediumseagreen;
+    margin-top: 25px;
+    height: 280px;
+    border-radius: 0px;
+    animation-name: mycard2;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes mycard2
+{
+    0% {
+        transform: scale(.8);
+        background-color:darkslateblue;
+        border-radius: 40%;
+
+      }
+      100% {
+        transform: scale(1);
+        background-color:mediumseagreen;
+      }
+}
+.card3 {
+    text-align: center;
+    background-color:coral;
+    margin-top: 150px;
+    height: 280px;
+    border-radius: 0px;
+    animation-name: mycard3;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes mycard3
+{
+    0% {
+        transform: scale(.8);
+        background-color:darkslateblue;
+        border-radius: 40%;
+      }
+      100% {
+        transform: scale(1);
+        background-color:coral;
+        
+      }
+}
+
+.menu
+{
+    margin-top: 50px;
+
+}
+.menu .card
+{
+    box-shadow: 10px 10px 10px black;
+    margin-top: 20px;
+}
+
+.menu .list .content p
+{
+    font-size: 14px;
+    font-size: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu .list .icon1
+{
+    padding: 10px;
+    color: #00436a;
+}
+.menu .list .content h6
+{
+    font-weight: bold;
+}
+.menu .row .card .card-header
+{
+    background-color: #001b2b;;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-section
+{
+    background: url("../IMAGE/s0.jpg") fixed;
+    opacity: 0.9;
+}
+.image-section .mission
+{
+    text-align: justify;
+    color:black;
+    padding: 3vw;
+    margin-top: 40px;
+    border-radius: 20px;
+    background: rgb(255,255,255,.5);
+}
+.about-room
+{
+    margin-top: 5%;
+}
+.about-room .card
+{
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black;
+    
+}
+.about-room .card h5
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.about-room .card .card-body p
+{
+    /* margin-left: -30px; */
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about-room .card .card-body  i
+{
+    color: red;
+}
+.about-room .card .card-body a
+{
+    background-color: #001b2b;
+    padding: 5px 0px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-room .card .card-body a:hover
+{
+    background-color:blue;
+}
+.index-trip
+{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.index-trip .travel
+{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    
+}
+.thought-bg{
+    background: url("../IMAGE/image13.jpg") no-repeat center; 
+    padding: 70px 0px; 
+    margin-top: 40px;
+}
+  .carousel-inner-index{
+    height: 350px;
+  }
+  .carousel-caption-index1{
+    color: #fff;
+    top: 60%;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+footer
+{
+    background-color: #001b2b;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 10px;
+}
+.footer1 a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.footer1 a:hover
+{
+    color:red;
+}
+.footer1 p
+{
+    font-size: 15px;
+    text-align: justify;
+}
+.footer1 span
+{
+    font-size: 15px;
+}
+
+/* @media only screen and (max-width: 568px) {
+    #myCarousel .carousel-inner img
+    {
+        height: 250px;
+    }
+  } */
+  @media only screen and (max-width: 768px) {
+    .card3
+    {
+        margin-top: 25px;
+    }
+  }
+
+ 
+

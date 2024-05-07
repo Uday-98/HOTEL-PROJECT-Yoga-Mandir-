@@ -1,0 +1,99 @@
+
+.carousel-gallery
+{
+    margin-top: 10px;
+}
+.carousel-caption-gallery
+{
+    margin-bottom: 40px;
+    animation: caption-g 1.5s;
+}
+@keyframes caption-g{
+    from{
+        letter-spacing: 50px;
+        filter: blur(6px);
+        opacity: 0;
+    }to{
+        letter-spacing: 0;
+        filter: blur(0);
+        opacity: 1px;
+    }
+}
+
+.carousel-caption-gallery h3
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+.carousel-caption-gallery p
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.carousel-gallery .carousel-inner .carousel-item img
+{
+  height: 450px;
+}
+.gallery-head
+{
+    animation: gall 1s;
+    text-align: center;
+    color: #00436a;
+}
+@keyframes gall{
+    from{
+        letter-spacing: 35px;
+        filter: blur(5px);
+        opacity: 0;
+    }to{
+        letter-spacing: 0;
+        filter: blur(0);
+        opacity: 1px;
+    }
+}
+.myImage h5
+{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    background-color: #00436a;
+    padding: 10px;
+}
+.myImage
+{
+    margin-top: 50px;
+    margin-bottom: 45px;
+    
+}
+.gallery-image .card
+{
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 1.5s ease-in-out;
+}
+.gallery-image .card img
+{
+    height: 250px;
+    transition: all 1.5s ease-in-out;
+}
+.gallery-image .card:hover img
+{
+    transform: scale(2, 2);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.gallery-image .card:hover
+{
+    border-radius: 50%;
+}
+@media only screen and (max-width: 768px) {
+    .gallery-image .card img {
+        height: 100%;
+        width: 100%;
+      
+    }
+  }
+
+

@@ -1,0 +1,110 @@
+
+.s1
+{
+  display: none;
+}
+.s2
+{
+  display: none;
+}
+.border-row
+{
+  padding: 60px 0px;
+  background-color: #beeee5;
+  font-size: 18px;
+  font-weight: bold;
+}
+#accordion .card .card-header a
+{
+  text-decoration: none;
+  font-size: 14px;
+  font-family: serif;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#accordion .card .card-header
+{
+  border-radius: 5px;
+  border: 1px solid white;
+}
+  .about
+  {
+    margin-left: 25px;
+  }
+  .about h6
+  {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-left: -15px;
+  }
+  .form-control-room
+  {
+    margin: 10px 0px;
+    font-size: 13px;
+  }
+  .form-label-room
+  {
+    font-size: 13px;
+  }
+  .form-select-room
+  {
+    font-size: 13px;
+  }
+  .request
+  {
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .request .card
+  {
+    text-align: center;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  .btn
+  {
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+  }
+  .room .btn
+  {
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+  }
+  .room .card-header
+  {
+    font-size: 13px;
+  }
+  .room li
+  {
+    font-size: 12px;
+  }
+  .room h6
+  {
+    font-size: 13px;
+  }
+  .list button:hover
+  {
+    color: white;
+  }
+  .list .card-header
+  {
+    font-family: serif;
+  }
+  .modal-room span i
+  {
+    color: red;
+  }
+  .carousel-room .carousel-inner .carousel-item img
+{
+  height: 250px;
+}
+
+
+  

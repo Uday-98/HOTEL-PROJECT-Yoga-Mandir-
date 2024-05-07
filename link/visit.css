@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+.visit-heading
+{
+    text-align: center;
+    color:#00436a;
+    font-size: 35px;
+    font-weight: bold;
+    animation: visit 1s;
+}
+@keyframes visit{
+    from{
+        letter-spacing: 35px;
+        filter: blur(5px);
+        opacity: 0;
+    }to{
+        letter-spacing: 0;
+        filter: blur(0);
+        opacity: 1px;
+    }
+}
+
+.visit-heading h2
+{
+    font-weight: bold;
+}
+.visit-image
+{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.visit-image .card img
+{
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all 2s ease-in-out;
+}
+
+.visit-image .card:hover img
+{
+    transform: scale(2, 2.7);
+    cursor: pointer
+}
+
+.visit-image .card:hover .card-footer h4
+{
+    transform: translateY(-60px);
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+.visit-image .card:hover .card-footer p
+{
+    visibility: hidden;
+}
+.visit-image .card
+{
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.visit-image .card .card-footer h4
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.visit-image .card .card-footer p
+{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
